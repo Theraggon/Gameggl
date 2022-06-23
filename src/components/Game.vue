@@ -22,18 +22,15 @@ do {
     await delay(timeToRefetchInMs);
 } while (true);
 
-
-
-
 </script>
 
 <template>
-<div class="coins">
-    Coins: {{ coins }}
-</div>
+    <div class="coins">
+        Coins: {{ coins }}
+    </div>
 </template>
 
-<style>
+<style scoped>
 .coins {
     font-size: 4rem;    
 }
